@@ -8,7 +8,7 @@ import { useActions, useUIState } from 'ai/rsc'
 import { UserMessage } from './stocks/message'
 import { type AI } from '@/lib/chat/actions'
 import { Button } from '@/components/ui/button'
-import { IconArrowElbow, IconPlus } from '@/components/ui/icons'
+import { IconArrowElbow, IconScan } from '@/components/ui/icons'
 import {
   Tooltip,
   TooltipContent,
@@ -70,18 +70,18 @@ export function PromptForm({
         <Tooltip>
           <TooltipTrigger asChild>
             <Button
-              variant="outline"
+              variant="ghost"
               size="icon"
-              className="absolute left-0 top-[14px] size-8 rounded-full bg-background p-0 sm:left-4"
+              className="absolute left-0 top-[14px] rounded-md p-0 sm:left-4"
               onClick={() => {
-                router.push('/new')
+                router.push('/scan')
               }}
             >
-              <IconPlus />
-              <span className="sr-only">New Chat</span>
+              <IconScan />
+              <span className="sr-only">Scan</span>
             </Button>
           </TooltipTrigger>
-          <TooltipContent>New Chat</TooltipContent>
+          <TooltipContent>Scan Text</TooltipContent>
         </Tooltip>
         <Textarea
           ref={inputRef}
