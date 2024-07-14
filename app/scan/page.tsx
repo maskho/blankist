@@ -10,18 +10,7 @@ const Page = () => {
   }
 
   return (
-    <main className="flex flex-col p-4">
-      <div>
-        <h1>Web API Camera with React and Nextjs! &nbsp; </h1>
-      </div>
-
-      <div>
-        <p>
-          In this app you will be able to interact with the camera api and
-          select one of the few avaialble cameras from given device.
-        </p>
-      </div>
-
+    <main className="flex flex-col">
       <div>
         <CameraFeed sendFile={handleSendFile} />
       </div>
