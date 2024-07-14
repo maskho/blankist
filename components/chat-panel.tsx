@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'Summarize in',
-      subheading: 'a few sentences',
-      message: `Summarize in a few sentences`
+      heading: 'Buat ringkasan',
+      subheading: 'dengan bahasa yang mudah',
+      message: `Buat ringkasan dengan bahasa yang mudah`
     },
     {
-      heading: 'Explain it as if',
-      subheading: 'I were a 5-year-old',
-      message: 'Explain it as if I were a 5-year-old'
+      heading: 'Jelaskan seperti',
+      subheading: 'saya berusia 5 tahun',
+      message: 'Jelaskan seperti saya berusia 5 tahun'
     },
     {
-      heading: 'Give me an example',
-      subheading: 'of it in real life',
-      message: `Give me an example of it in real life`
+      heading: 'Buat cerita',
+      subheading: 'tentang hal itu',
+      message: `Buat cerita tentang hal itu`
     },
     {
-      heading: 'Make a',
-      subheading: `story about it `,
-      message: `Make a story about it`
+      heading: 'Beri contoh',
+      subheading: `mengenai hal itu`,
+      message: `Beri contoh mengenai hal itu`
     }
   ]
 

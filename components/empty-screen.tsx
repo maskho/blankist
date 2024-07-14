@@ -9,7 +9,7 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <IconBlankist className="size-24 mx-auto" />
-        <h1 className="text-lg font-semibold text-center">Hai Bro & Sis 👋</h1>
+        <h1 className="text-lg font-semibold text-center">Hai Bro & Sist 👋</h1>
         <h2 className="text-lg font-semibold">
           Ringkas Bacaan dengan Blankist
         </h2>
@@ -20,7 +20,9 @@ export function EmptyScreen() {
         </p>
         <p className="leading-normal text-muted-foreground">
           Email kami di{' '}
-          <ExternalLink href="mailto:sa@kobar.co ">sa@kobar.co</ExternalLink>
+          <ExternalLink href="mailto:blankist@kobar.co ">
+            blankist@kobar.co
+          </ExternalLink>
           untuk saran dan pertanyaan. Selamat membaca!
         </p>
       </div>
